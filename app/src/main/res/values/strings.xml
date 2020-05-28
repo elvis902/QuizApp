@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+
+    <string name="question1">Which planet is the smallest?</string>
+    <string name="question2">LPG(Liquefied Petroleum Gas) is mainly a mixture of which gases?</string>
+    <string name="question3">Which instrument is used for measuring wind speed?</string>
+    <string name="question4">What is the square root of 144?</string>
+    <string name="question5">Apart from cheese and tomato, what other two toppings are usually there on a Hawaiian Pizza?</string>
+    <string name="question6">What color is a Himalayan poppy?</string>
+
+    <string name="question1Option1">Neptune</string>
+    <string name="question1Option2">Mars</string>
+    <string name="question1Option3">Mercury</string>
+
+    <string name="question2Option1">Propane</string>
+    <string name="question2Option2">Hydrogen</string>
+    <string name="question2Option3">Butane</string>
+
+    <string name="question4Option1">12</string>
+    <string name="question4Option2">8</string>
+    <string name="question4Option3">14</string>
+
+    <string name="question5Option1">Pineapple</string>
+    <string name="question5Option2">Ham</string>
+    <string name="question5Option3">Cherry</string>
+</resources>
