@@ -43,22 +43,30 @@ public class MainActivity extends AppCompatActivity {
     public String question1()
     {
         int selectedId = q1RadioGroup.getCheckedRadioButtonId();
+        if(selectedId == -1)
+            return "";
         q1RadioButton = (RadioButton)findViewById(selectedId);
         return q1RadioButton.getText().toString();
     }
 
     public String question3()
     {
+        if(q3EditText.getText().toString().equals(""))
+            return "";
         return q3EditText.getText().toString();
     }
     public String question4()
     {
         int selectedId = q4RadioGroup.getCheckedRadioButtonId();
+        if(selectedId == -1)
+            return "";
         q4RadioButton = (RadioButton)findViewById(selectedId);
         return q4RadioButton.getText().toString();
     }
     public String question6()
     {
+        if(q6EditText.getText().toString().equals(""))
+            return "";
         return q6EditText.getText().toString();
     }
 
